@@ -11,3 +11,6 @@ each update will have more and more features until v1 which will also be release
 - Built with **safety** and **efficiency** in mind
 - Full compatibility with **selfbots** on Discord
 - Designed to provide a familiar, yet improved, API inspired by `discord.py`
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
