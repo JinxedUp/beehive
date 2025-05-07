@@ -9,7 +9,7 @@ class CommandHandler:
         self._arg_pattern = re.compile(r'("[^"]*"|\S+)')
 
     def _parse_args(self, content: str) -> Tuple[str, List[str]]:
-        """Parse command arguments, handling quoted strings"""
+        
 
         content = content[len(self.bot.command_prefix):].strip()
         if not content:
@@ -45,7 +45,7 @@ class CommandHandler:
         return command, args
 
     def _get_command(self, name: str) -> Optional[Command]:
-        """Get a command from cache or bot commands"""
+        
 
         if name in self._command_cache:
             return self._command_cache[name]
@@ -60,7 +60,7 @@ class CommandHandler:
         return cmd
 
     async def handle_command(self, content: str, channel_id: str) -> None:
-        """Handle a command message"""
+       
         try:
 
             command_name, args = self._parse_args(content)
