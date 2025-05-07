@@ -1,3 +1,5 @@
+# MIT License
+# Copyright (c) 2025 JinxedUp
 import re
 from typing import Dict, List, Optional, Tuple, Union
 from .command import Command, CommandError, MissingRequiredArgument, BadArgument, CommandNotFound, CommandInvokeError
