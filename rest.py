@@ -1,3 +1,5 @@
+# MIT License
+# Copyright (c) 2025 JinxedUp
 import random, asyncio, json, tls_client
 from .utils import load_cookies, save_cookies
 from .constants import USER_AGENTS
