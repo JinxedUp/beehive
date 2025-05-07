@@ -1,6 +1,6 @@
-# jinxcord
+# beehive
 
-**Jinxcord** is a selfbot library made from the ground up to copy discord.py while being the safest option
+**beehive** is a selfbot library made from the ground up to copy discord.py while being the safest option
 offers more safety than all of the other python selfbot libraries.
 
 v0.10 coming soon, expect it to have basic things such as command and event handling and some other things.
