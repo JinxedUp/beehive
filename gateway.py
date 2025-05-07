@@ -1,3 +1,5 @@
+# MIT License
+# Copyright (c) 2025 JinxedUp
 import json
 import asyncio
 import httpx
