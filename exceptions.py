@@ -1,3 +1,5 @@
+# MIT License
+# Copyright (c) 2025 JinxedUp
 class DiscordError(Exception):
     """Base exception for Discord-related errors"""
     pass
